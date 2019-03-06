@@ -1,23 +1,24 @@
-.columna {
-    width: 30%;
-}
-
-div {
-    border: 2px;
-    border-color: brown;
-}
-
 footer {
-    background: blue;
+    background: darkblue;
     position: fixed;
     bottom: 0px;
-    width: 100%;
+    width: 80%;
+    font-weight: bold;
 }
 
-div>li {
-    display: inline;
+
+div {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 20px;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+
 }
 
-section {
-    display: inline;
+li {
+    list-style: none;
+    text-align: left;
 }
