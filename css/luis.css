@@ -4,4 +4,20 @@
 
 div {
     border: 2px;
+    border-color: brown;
+}
+
+footer {
+    background: blue;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+div>li {
+    display: inline;
+}
+
+section {
+    display: inline;
 }
