@@ -1,0 +1,53 @@
+#juanma{
+    display: block;
+}
+
+header{
+    
+    background-image: url(../img/nathan-anderson-316188-unsplash.jpg);    
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+
+nav{    
+    display: inline-block;
+}
+.redessociales{    
+    position: absolute; 
+    right: 0;
+    top: 0px;
+}
+
+.links{
+    position: absolute;
+    top: 0px;
+    left: 500px;
+}
+
+.imgheader{
+    height: 50px;
+    width: 120px;    
+}
+
+.imgRRSS{
+    height: 30px;
+    width: 30px;    
+}
+
+#viaja{
+    position: relative;
+    left:200px;
+    right:50px;
+    
+}
+
+#verDestinos{
+    background-color: yellow ;
+    color: black;
+    font-style: italic;
+    border: none;    
+}
