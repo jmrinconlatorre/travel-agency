@@ -1,35 +1,28 @@
-container {
-	position: relative;
-	}
-	
-.background-image { 
-	image: url (C:\Users\Natasha\Desktop\SecondWKProj\WK2Testing\travel_1.jpg);
-	width: 80%;
-	height: 400px;
-	position: fixed;
-	filter: opacity(50%);
-	padding-top: 10px;
-	padding-right: 95px;
-	padding-left: 100px;
-    
+#container{ 
+	display:  block;
+	background-image: url(../img/travel_1.jpg);
+	background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+	background-position:center;
+	border: none;
 }
 
-	
 u {
     text-decoration: none;
     border-bottom: 5px solid yellow;
 }
 
-
-.text-block {
-	  position: absolute;
-	  width: 325px;
-	  bottom: 285px;
-	  left: 200px;
-	  background-color: white;
-	  color: black;
-	  padding-left: 20px;
-	  padding-right: 20px;
+text-block {
+	display: inline-block;
+	position: absolute; 
+    left: 0;
+    top: 10px;
+	background-color: white ;
+	color: black;
+	  
 }
 
 button {
@@ -41,5 +34,40 @@ button {
 	   text-decoration: none;
 	   display: inline-block;
 	   font-size: 16px;
-	   margin: 8px 2px 20px 75px;
+	   
+}
+
+input[type=text], select, textarea {
+	width: 100%; 
+	padding: 12px;  
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	box-sizing: border-box;
+	margin-top: 6px; 
+	margin-bottom: 16px; 
+	resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+	background-color: rgb(223, 247, 12);
+	color: rgb(10, 3, 68);
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+    
+ 
+  .container-form {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+#left {
+   float: left;
+}
+#right {
+   float: right;
 }
