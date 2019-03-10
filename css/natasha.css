@@ -1,0 +1,45 @@
+container {
+	position: relative;
+	}
+	
+.background-image { 
+	image: url (C:\Users\Natasha\Desktop\SecondWKProj\WK2Testing\travel_1.jpg);
+	width: 80%;
+	height: 400px;
+	position: fixed;
+	filter: opacity(50%);
+	padding-top: 10px;
+	padding-right: 95px;
+	padding-left: 100px;
+    
+}
+
+	
+u {
+    text-decoration: none;
+    border-bottom: 5px solid yellow;
+}
+
+
+.text-block {
+	  position: absolute;
+	  width: 325px;
+	  bottom: 285px;
+	  left: 200px;
+	  background-color: white;
+	  color: black;
+	  padding-left: 20px;
+	  padding-right: 20px;
+}
+
+button {
+	   background-color: rgb(3, 5, 70);
+	   border: none;
+	   color: yellow ;
+	   padding: 15px 32px;
+	   text-align: center;
+	   text-decoration: none;
+	   display: inline-block;
+	   font-size: 16px;
+	   margin: 8px 2px 20px 75px;
+}
