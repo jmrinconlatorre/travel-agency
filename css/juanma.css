@@ -5,12 +5,13 @@
 header{
     
     background-image: url(../img/nathan-anderson-316188-unsplash.jpg);    
-    background-repeat:no-repeat;
+    /*background-repeat:no-repeat;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
     background-size:cover;
-    background-position:center;
+    background-position:center;*/
+    background-size: 100% 110%;
 }
 
 nav{    
