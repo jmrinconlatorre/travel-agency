@@ -2,12 +2,13 @@ footer {
     background: darkblue;
     width: 80%;
     font-weight: bold;
+    box-align: center;
 }
 
 
 div {
     display: inline-block;
-    border: 2px solid black;
+    /*  border: 2px solid black; */
     padding: 20px;
     color: white;
     font-size: 15px;
